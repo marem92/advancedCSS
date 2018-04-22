@@ -1,0 +1,22 @@
+{
+  "name": "natorus",
+  "version": "1.0.0",
+  "description": "landing page for natorus",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marem92/advancedCSS.git"
+  },
+  "author": "Marko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marem92/advancedCSS/issues"
+  },
+  "homepage": "https://github.com/marem92/advancedCSS#readme",
+  "devDependencies": {
+    "node-sass": "^4.8.3"
+  }
+}
