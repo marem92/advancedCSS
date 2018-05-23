@@ -331,6 +331,7 @@ body {
     display: inline-block;
     background-image: linear-gradient(to right, #7ed56f, #28b485);
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent; }
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
@@ -396,15 +397,15 @@ body {
   left: 0;
   top: -.4rem; }
   .form__radio-button::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     content: "";
     display: block;
     height: 1.3rem;
     width: 1.3rem;
     border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     background-color: #55c57a;
     opacity: 0;
     transition: opacity .2s; }
